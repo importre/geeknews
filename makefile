@@ -1,7 +1,8 @@
 all: clean build
 
 build:
-	go build -o gn
+	@go build -o gn
+	@shasum -a 256 gn
 
 release: clean build
 	gh release create $(VERSION) \
@@ -10,4 +11,4 @@ release: clean build
 		gn
 
 clean:
-	rm -f gn
+	@rm -f gn
