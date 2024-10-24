@@ -13,6 +13,10 @@
 
 ## 글 목록
 
+| 글 목록 | 다른 글 목록 선택
+| --- | ---
+| <img width="1392" alt="Screenshot 2024-10-24 at 10 45 32 PM" src="https://github.com/user-attachments/assets/2ca18af7-b7d5-41f3-a12d-f6d18e8407a9"> | <img width="1392" alt="Screenshot 2024-10-24 at 10 47 56 PM" src="https://github.com/user-attachments/assets/b2ae02ab-2bd6-4341-8514-a13120bbbb20">
+
 | 단축키                              | 설명
 | ------------------------------------| ------------------------------
 | <kbd>j</kbd>                        | 현재 페이지에서 아래로 이동
@@ -28,6 +32,10 @@
 
 
 ## 글 보기
+
+| 글 상단 | 댓글 | 대댓글
+| --- | --- | ---
+<img width="1392" alt="Screenshot 2024-10-24 at 10 45 38 PM" src="https://github.com/user-attachments/assets/1247a9c2-10fc-4273-9ab5-35906ac7d083"> | <img width="1392" alt="Screenshot 2024-10-24 at 10 45 53 PM" src="https://github.com/user-attachments/assets/6029c0f3-d277-4fba-874c-638cdbd6e4be"> | <img width="1392" alt="Screenshot 2024-10-24 at 10 47 44 PM" src="https://github.com/user-attachments/assets/70f2fad7-69d8-4c7c-a97d-e8eb057a9146">
 
 | 단축키                              | 설명
 | ------------------------------------| ------------------------------
