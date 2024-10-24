@@ -11,6 +11,12 @@
 
 긱뉴스를 터미널에서 :shipit:
 
+## 설치
+
+```sh 
+brew install importre/core/gn
+```
+
 ## 글 목록
 
 | 글 목록 | 다른 글 목록 선택
