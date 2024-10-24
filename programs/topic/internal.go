@@ -29,14 +29,18 @@ func (m *Model) clear() {
 }
 
 func (m *Model) render() {
-	content := []string{
-		strings.TrimSpace(m.topic.Markdown(m.viewport.Width)),
-		m.commentsView(m.viewport.Width),
+	if !m.HasContent() {
+		return
 	}
 
-	m.viewport.SetContent(
-		strings.Join(content, "\n\n"),
-	)
+	body := make(chan string)
+	comments := make(chan string)
+
+	go func() { body <- strings.TrimSpace(m.topic.Markdown(m.viewport.Width)) }()
+	go func() { comments <- m.commentsView(m.viewport.Width) }()
+
+	content := strings.Join([]string{<-body, <-comments}, "\n\n")
+	m.viewport.SetContent(content)
 }
 
 func (m Model) commentsView(width int) string {
