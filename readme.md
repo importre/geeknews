@@ -17,7 +17,13 @@
 brew install importre/core/gn
 ```
 
-## 글 목록
+## 실행
+
+```sh
+gn
+```
+
+### 글 목록
 
 | 글 목록 | 다른 글 목록 선택
 | --- | ---
@@ -37,7 +43,7 @@ brew install importre/core/gn
 | <kbd>q</kbd> or <kbd>ctrl + c</kbd> | 앱 종료
 
 
-## 글 보기
+### 글 보기
 
 | 글 상단 | 댓글 | 대댓글
 | --- | --- | ---
@@ -54,3 +60,4 @@ brew install importre/core/gn
 | <kbd>v</kbd>                        | 브라우저에서 글 보기
 | <kbd>q</kbd>                        | 글 닫기
 | <kbd>ctrl + c</kbd>                 | 앱 종료
+
